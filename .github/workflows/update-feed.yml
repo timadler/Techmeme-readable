@@ -1,0 +1,42 @@
+name: Update feed
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Generate feed
+        run: python generate_feed.py
+        env:
+          MAX_NEW_URLS: "30"
+          # Skip archive.ph on GitHub Actions (often captcha-blocked)
+          ARCHIVE_PH: "0"
+      - name: Commit changes
+        run: |
+          if [ -n "$(git status --porcelain docs/feed.xml cache.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/feed.xml cache.json
+            git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No changes"
+          fi
