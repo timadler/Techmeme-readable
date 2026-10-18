@@ -5,8 +5,19 @@
     <link>https://www.techmeme.com/</link>
     <description>Top news and commentary for technology's leaders, from all around the web</description>
     <language>en-us</language>
-    <pubDate>Sun, 18 Oct 2026 15:55:33 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Oct 2026 15:55:33 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Oct 2026 18:15:33 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:15:33 -0400</lastBuildDate>
+    <item>
+      <title>Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal (Bailey Lipschultz/Bloomberg)</title>
+      <link>https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation</link>
+      <description>&lt;A HREF="https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"&gt;&lt;IMG VSPACE="4" HSPACE="4" BORDER="0" ALIGN="RIGHT" SRC="http://www.techmeme.com/261018/i12.jpg"&gt;&lt;/A&gt;
+&lt;P&gt;&lt;A HREF="https://www.techmeme.com/261018/p12#a261018p12" TITLE="Techmeme permalink"&gt;&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;padding:0;margin:0;"&gt;&lt;/A&gt; Bailey Lipschultz / &lt;A HREF="https://www.bloomberg.com/"&gt;Bloomberg&lt;/A&gt;:&lt;BR&gt;
+&lt;SPAN STYLE="font-size:1.3em;"&gt;&lt;B&gt;&lt;A HREF="https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"&gt;Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal&lt;/A&gt;&lt;/B&gt;&lt;/SPAN&gt;&amp;nbsp; &amp;mdash;&amp;nbsp; Nscale Ltd. is facing opposition to the valuation target it's pursuing in its initial public offering, according to people familiar &amp;hellip; &lt;/P&gt;
+&lt;P&gt;Original: &lt;A HREF="https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"&gt;https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation&lt;/A&gt;&lt;/P&gt;
+</description>
+      <pubDate>Sun, 18 Oct 2026 18:15:00 -0400</pubDate>
+      <guid>https://www.techmeme.com/261018/p12#a261018p12</guid>
+    </item>
     <item>
       <title>Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases (Phoebe Liu/The Information)</title>
       <link>https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose</link>
@@ -160,17 +171,6 @@
 </description>
       <pubDate>Sat, 17 Oct 2026 19:35:01 -0400</pubDate>
       <guid>https://www.techmeme.com/261017/p19#a261017p19</guid>
-    </item>
-    <item>
-      <title>Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a "large scale distillation attack" (Walter Schulze/Startup Fortune)</title>
-      <link>https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/</link>
-      <description>&lt;A HREF="https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/"&gt;&lt;IMG VSPACE="4" HSPACE="4" BORDER="0" ALIGN="RIGHT" SRC="http://www.techmeme.com/261017/i18.jpg"&gt;&lt;/A&gt;
-&lt;P&gt;&lt;A HREF="https://www.techmeme.com/261017/p18#a261017p18" TITLE="Techmeme permalink"&gt;&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;padding:0;margin:0;"&gt;&lt;/A&gt; Walter Schulze / &lt;A HREF="https://startupfortune.com/"&gt;Startup Fortune&lt;/A&gt;:&lt;BR&gt;
-&lt;SPAN STYLE="font-size:1.3em;"&gt;&lt;B&gt;&lt;A HREF="https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/"&gt;Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a &amp;ldquo;large scale distillation attack&amp;rdquo;&lt;/A&gt;&lt;/B&gt;&lt;/SPAN&gt;&amp;nbsp; &amp;mdash;&amp;nbsp; A large-scale distillation attack against the company behind the open-source coding agent OpenCode exposed stored OpenAI &amp;hellip; &lt;/P&gt;
-&lt;P&gt;Original: &lt;A HREF="https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/"&gt;https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/&lt;/A&gt;&lt;/P&gt;
-</description>
-      <pubDate>Sat, 17 Oct 2026 16:50:01 -0400</pubDate>
-      <guid>https://www.techmeme.com/261017/p18#a261017p18</guid>
     </item>
   </channel>
 </rss>
