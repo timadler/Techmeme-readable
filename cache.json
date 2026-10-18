@@ -34,6 +34,11 @@
   "resolved": "https://web.archive.org/web/20261018060343/https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9",
   "ts": 1792328241
  },
+ "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/": {
+  "method": "fallback",
+  "resolved": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
+  "ts": 1792349601
+ },
  "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/": {
   "method": "fallback",
   "resolved": "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/",
