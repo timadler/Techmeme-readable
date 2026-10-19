@@ -7,12 +7,22 @@
  "https://fortune.com/2026/10/15/stand-insurance-wildfire-unicorn-raises-70-million-1-billion-valuation/": {
   "method": "fallback",
   "resolved": "https://fortune.com/2026/10/15/stand-insurance-wildfire-unicorn-raises-70-million-1-billion-valuation/",
-  "ts": 1792372918
+  "ts": 1792392340
+ },
+ "https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019045047/https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/",
+  "ts": 1792392332
  },
  "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy": {
   "method": "fallback",
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
   "ts": 1792372923
+ },
+ "https://www.bbc.com/news/articles/cm5yn098xz8lo": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019062338/https://www.bbc.com/news/articles/cm5yn098xz8lo",
+  "ts": 1792392335
  },
  "https://www.bloomberg.com/news/articles/2026-10-15/gtcr-elliott-acquire-software-firm-ccc-for-4-6-billion": {
   "method": "fallback",
@@ -22,7 +32,7 @@
  "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation": {
   "method": "fallback",
   "resolved": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation",
-  "ts": 1792365479
+  "ts": 1792392342
  },
  "https://www.bloomberg.com/news/newsletters/2026-10-17/disney-offers-soft-landing-to-staff-at-troubled-character-ai": {
   "method": "fallback",
@@ -34,10 +44,30 @@
   "resolved": "https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MjMzMjI1NywiZXhwIjoxNzkyOTM3MDU3LCJhcnRpY2xlSWQiOiJUTjNXODFLR1pBSjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.SXy771LY1gAlXt2MmZODtLQ3lEquvyiefNIH-i7IZHQ",
   "ts": 1792372919
  },
+ "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261018140205/https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+  "ts": 1792392334
+ },
+ "https://www.ft.com/content/5d45d66f-fd31-4263-b52f-54d9d88baa63": {
+  "method": "fallback",
+  "resolved": "https://www.ft.com/content/5d45d66f-fd31-4263-b52f-54d9d88baa63",
+  "ts": 1792392339
+ },
+ "https://www.ft.com/content/60bffbe3-f7aa-4813-b657-a31087e7b116?accessToken=zwAAAaFPPIA3kc9gv_vj96pIE9O2V6MQh-exFg.MEUCIQC302L7LYN0b4H7cc56Qhao045gUhnaQ5lY3hVqofsapwIgMamrT5GOqYwTANyeaAe4bKrPLm98_aPRWRc0jHYm4pk&sharetype=gift&token=47f0afa3-f0b0-49cc-8bef-ffb2288a135f": {
+  "method": "fallback",
+  "resolved": "https://www.ft.com/content/60bffbe3-f7aa-4813-b657-a31087e7b116?accessToken=zwAAAaFPPIA3kc9gv_vj96pIE9O2V6MQh-exFg.MEUCIQC302L7LYN0b4H7cc56Qhao045gUhnaQ5lY3hVqofsapwIgMamrT5GOqYwTANyeaAe4bKrPLm98_aPRWRc0jHYm4pk&sharetype=gift&token=47f0afa3-f0b0-49cc-8bef-ffb2288a135f",
+  "ts": 1792392330
+ },
  "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018064819/https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
   "ts": 1792328218
+ },
+ "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a": {
+  "method": "fallback",
+  "resolved": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a",
+  "ts": 1792392330
  },
  "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9": {
   "method": "wayback",
@@ -47,7 +77,12 @@
  "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/": {
   "method": "fallback",
   "resolved": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
-  "ts": 1792365480
+  "ts": 1792392343
+ },
+ "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7": {
+  "method": "fallback",
+  "resolved": "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7",
+  "ts": 1792392335
  },
  "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/": {
   "method": "fallback",
@@ -57,6 +92,16 @@
  "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose": {
   "method": "fallback",
   "resolved": "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose",
-  "ts": 1792372918
+  "ts": 1792392342
+ },
+ "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend": {
+  "method": "fallback",
+  "resolved": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend",
+  "ts": 1792392331
+ },
+ "https://www.wsj.com/finance/nearly-all-volume-on-fifa-linked-prediction-market-is-circular-trading-549393f3?st=Mc7RQM&reflink=desktopwebshare_permalink": {
+  "method": "fallback",
+  "resolved": "https://www.wsj.com/finance/nearly-all-volume-on-fifa-linked-prediction-market-is-circular-trading-549393f3?st=Mc7RQM&reflink=desktopwebshare_permalink",
+  "ts": 1792392336
  }
 }
