@@ -2,6 +2,8 @@ name: Update feed
 
 on:
   schedule:
+    # Every 20 minutes. GitHub delays scheduled workflows on this repo, so
+    # runs often land only every few hours; leave the expression unchanged.
     - cron: "*/20 * * * *"
   workflow_dispatch:
 
@@ -27,7 +29,9 @@ jobs:
         run: python generate_feed.py
         env:
           MAX_NEW_URLS: "30"
-          # Skip archive.ph on GitHub Actions (often captcha-blocked)
+          # Skip the archive.ph *network lookup* on GitHub Actions (captcha-blocked).
+          # Paywalled links are built locally from READABLE_URL_TEMPLATE
+          # (default https://www.removepaywall.com/search?url=...) and are not fetched.
           ARCHIVE_PH: "0"
       - name: Commit changes
         run: |

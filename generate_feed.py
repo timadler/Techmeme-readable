@@ -2,14 +2,21 @@
 """Generate a "readable links" version of the Techmeme RSS feed.
 
 For every item, the Techmeme permalink <link> is replaced with a readable
-(non-paywalled) URL for the article's main headline link:
+URL for the article's main headline link:
 
   1. domains in the free-domain allowlist (or "unlocked" gift links) -> keep original
-  2. Wayback Machine availability API -> snapshot URL
-  3. archive.ph "newest" lookup (best effort, short timeout, can be disabled)
-  4. fall back to the original article URL
+  2. known paywalled domains -> READABLE_URL_TEMPLATE (default
+     https://www.removepaywall.com/search?url=<encoded article URL>).
+     Constructed locally; no request is made to that host. Preferred even
+     when a Wayback snapshot is already cached. Not stored in the cache.
+  3. otherwise, Wayback Machine availability API -> snapshot URL
+  4. archive.ph "newest" lookup (best effort, short timeout, can be disabled)
+     for non-paywalled domains only
+  5. fall back to the original article URL
 
-Results are cached in cache.json. See README.md.
+Headline and image HREFs in the description that point at the article are
+rewritten to the same URL. The original URL is appended as "Original: <url>".
+Wayback/archive.ph lookup results are cached in cache.json. See README.md.
 """
 import argparse
 import html
@@ -19,7 +26,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from collections import Counter
 from urllib.parse import quote, urlparse
 
 import requests
@@ -46,6 +53,52 @@ DEFAULT_FREE_DOMAINS = [
     "techmeme.com",
 ]
 
+# Known paywalled or metered publishers. Hosts match subdomains
+# (www.bloomberg.com, asia.nikkei.com, ...). An entry may include one path
+# prefix, "axios.com/pro", so the rest of that host stays on the normal path.
+# semafor.com is included. lemonde.fr is intentionally omitted.
+# Override with --paywalled-domains / PAYWALLED_DOMAINS or PAYWALLED_DOMAINS_FILE.
+DEFAULT_PAYWALLED_DOMAINS = [
+    "bloomberg.com",
+    "wsj.com",
+    "ft.com",
+    "nytimes.com",
+    "theinformation.com",
+    "forbes.com",
+    "washingtonpost.com",
+    "economist.com",
+    "businessinsider.com",
+    "theatlantic.com",
+    "wired.com",
+    "newyorker.com",
+    "reuters.com",
+    "telegraph.co.uk",
+    "barrons.com",
+    "fortune.com",
+    "axios.com/pro",
+    "semafor.com",
+    "statnews.com",
+    "puck.news",
+    "newcomer.co",
+    "stratechery.com",
+    "bizjournals.com",
+    "nikkei.com",
+    "asia.nikkei.com",
+    "scmp.com",
+    "latimes.com",
+    "bostonglobe.com",
+    "technologyreview.com",
+    "hbr.org",
+    "thetimes.co.uk",
+]
+
+# {url} is the article URL percent-encoded like JavaScript encodeURIComponent
+# (how the RemovePaywall extension builds this link). {url_raw} is the article
+# URL appended unchanged, for swapping back to archive.ph:
+#   https://archive.ph/newest/{url_raw}
+# The URL is only constructed. Nothing is fetched from the template host.
+DEFAULT_READABLE_URL_TEMPLATE = "https://www.removepaywall.com/search?url={url}"
+
 SUCCESS_TTL = 30 * 24 * 3600      # successful lookups: 30 days
 FAILURE_TTL = 3 * 3600            # failed lookups: retry after 3 hours
 PRUNE_AGE = 90 * 24 * 3600        # drop cache entries older than this
@@ -53,6 +106,8 @@ PRUNE_AGE = 90 * 24 * 3600        # drop cache entries older than this
 HEADLINE_RE = re.compile(
     r'<B>\s*<A\s+HREF="([^"]+)"', re.IGNORECASE)
 FIRST_HREF_RE = re.compile(r'<A\s+HREF="([^"]+)"', re.IGNORECASE)
+HREF_ATTR_RE = re.compile(
+    r"""(?is)(\bHREF\s*=\s*)(["'])(.*?)\2""")
 
 
 def env_bool(name, default):
@@ -94,6 +149,43 @@ def host_matches(url, domains):
     return any(host == d or host.endswith("." + d) for d in domains)
 
 
+def parse_paywall_spec(entries):
+    """Return (host, path_prefix or None) rules. path_prefix is lowercase, leading slash."""
+    rules = []
+    for entry in entries:
+        entry = entry.strip().lower()
+        if not entry or entry.startswith("#"):
+            continue
+        if "/" in entry:
+            host, _, path = entry.partition("/")
+            path = "/" + path.strip("/")
+            rules.append((host, path))
+        else:
+            rules.append((entry, None))
+    return rules
+
+
+def is_paywalled(url, rules):
+    """True when url's host (including subdomains) matches a paywall rule.
+
+    Rules with a path prefix match only that path (axios.com/pro matches
+    /pro and /pro/... but not /professional or other axios.com paths).
+    """
+    parts = urlparse(url)
+    host = (parts.hostname or "").lower()
+    path = (parts.path or "/").lower()
+    norm = path.rstrip("/") or "/"
+    for rule_host, path_prefix in rules:
+        if not (host == rule_host or host.endswith("." + rule_host)):
+            continue
+        if path_prefix is None:
+            return True
+        prefix = path_prefix.rstrip("/") or "/"
+        if norm == prefix or path.startswith(prefix + "/"):
+            return True
+    return False
+
+
 def is_free(url, domains):
     if host_matches(url, domains):
         return True
@@ -101,6 +193,26 @@ def is_free(url, domains):
     if "unlocked_article_code=" in url or "gift=" in url:
         return True
     return False
+
+
+def encode_uri_component(url):
+    """Percent-encode like JavaScript encodeURIComponent."""
+    return quote(url, safe="!~*'()")
+
+
+def render_readable_url(template, url):
+    """Fill READABLE_URL_TEMPLATE. Does not perform any network I/O.
+
+    {url} is encodeURIComponent(article). {url_raw} is the article unchanged.
+    A template with neither placeholder is treated as a prefix and the
+    encoded article URL is appended (RemovePaywall's ?url= form).
+    """
+    if "{url}" not in template and "{url_raw}" not in template:
+        return template + encode_uri_component(url)
+    # {url_raw} first so a raw URL is not processed by the {url} replacement.
+    return (template
+            .replace("{url_raw}", url)
+            .replace("{url}", encode_uri_component(url)))
 
 
 def lookup_wayback(session, url, timeout):
@@ -115,6 +227,11 @@ def lookup_wayback(session, url, timeout):
 
 
 def lookup_archive_ph(session, url, timeout):
+    """Best-effort network lookup of an existing archive.ph snapshot.
+
+    Not used for paywalled domains (those get a constructed template URL)
+    and disabled on GitHub Actions, where archive.ph is captcha-blocked.
+    """
     r = session.get("https://archive.ph/newest/" + quote(url, safe=":/?&=%"),
                     timeout=timeout, allow_redirects=False)
     loc = r.headers.get("Location", "")
@@ -126,6 +243,25 @@ def lookup_archive_ph(session, url, timeout):
     return None
 
 
+def rewrite_article_hrefs(desc, article, readable):
+    """Point every HREF equal to the article URL at the readable URL.
+
+    Publisher homepages, Techmeme permalinks, and other hrefs are left alone.
+    The caller appends the Original: line afterwards so that line keeps the
+    publisher URL.
+    """
+    if not desc or not article or readable == article:
+        return desc
+    escaped = html.escape(readable, quote=True)
+
+    def repl(m):
+        if html.unescape(m.group(3)) == article:
+            return f"{m.group(1)}{m.group(2)}{escaped}{m.group(2)}"
+        return m.group(0)
+
+    return HREF_ATTR_RE.sub(repl, desc)
+
+
 class Resolver:
     def __init__(self, args, cache):
         self.args = args
@@ -133,8 +269,8 @@ class Resolver:
         self.session = make_session()
         self.ph_session = make_session(0)  # best effort: no retries
         self.new_lookups = 0
-        self.stats = {"free": 0, "cached": 0, "wayback": 0, "archive_ph": 0,
-                      "fallback": 0, "deferred": 0}
+        self.stats = {"free": 0, "paywall": 0, "cached": 0, "wayback": 0,
+                      "archive_ph": 0, "fallback": 0, "deferred": 0}
         self._last_net = 0.0
 
     def _sleep(self):
@@ -149,11 +285,21 @@ class Resolver:
                       else FAILURE_TTL)
 
     def resolve(self, url):
-        """Return (resolved_url, method). method in free/wayback/archive_ph/fallback/deferred."""
+        """Return (resolved_url, method).
+
+        method is free, paywall, wayback, archive_ph, fallback, or deferred.
+        Paywalled URLs are computed from the template and are not read from
+        or written to the cache, so a template or domain-list change applies
+        to URLs that were cached under the old logic.
+        """
         now = time.time()
         if is_free(url, self.args.free_domains):
             self.stats["free"] += 1
             return url, "free"
+        if is_paywalled(url, self.args.paywalled_rules):
+            resolved = render_readable_url(self.args.readable_url_template, url)
+            self.stats["paywall"] += 1
+            return resolved, "paywall"
         entry = self.cache.get(url)
         if entry and self._fresh(entry, now):
             self.stats["cached"] += 1
@@ -229,11 +375,11 @@ def build_feed(source_xml, resolver):
         desc = item.findtext("description") or ""
         art = article_url(desc, link)
         new_link, method = link, "no-article-link"
-        if art:
-            new_link, method = resolver.resolve(art)
         new_desc = desc
         if art:
-            new_desc = (desc.rstrip() +
+            new_link, method = resolver.resolve(art)
+            new_desc = rewrite_article_hrefs(desc, art, new_link)
+            new_desc = (new_desc.rstrip() +
                         f'\n<P>Original: <A HREF="{html.escape(art, quote=True)}">'
                         f'{html.escape(art)}</A></P>\n')
         o = ET.SubElement(out_ch, "item")
@@ -269,11 +415,21 @@ def parse_args(argv=None):
     p.add_argument("--ph-timeout", type=float, default=float(e("ARCHIVE_PH_TIMEOUT", "6")))
     p.add_argument("--free-domains", default=e("FREE_DOMAINS"),
                    help="comma-separated list replacing the default free-domain allowlist")
+    p.add_argument("--paywalled-domains", default=e("PAYWALLED_DOMAINS"),
+                   help="comma-separated list replacing the default paywalled domains; "
+                        "use host/path for a path prefix (axios.com/pro)")
+    p.add_argument("--readable-url-template",
+                   default=e("READABLE_URL_TEMPLATE", DEFAULT_READABLE_URL_TEMPLATE),
+                   help="template for paywalled links. {url}=encoded article, "
+                        "{url_raw}=article as-is. No network call. "
+                        "Default: removepaywall search URL. "
+                        "Archive.ph swap: https://archive.ph/newest/{url_raw}")
     ph = p.add_mutually_exclusive_group()
     ph.add_argument("--archive-ph", dest="archive_ph", action="store_true",
                     default=env_bool("ARCHIVE_PH", True))
     ph.add_argument("--no-archive-ph", dest="archive_ph", action="store_false",
-                    help="disable the archive.ph lookup (or ARCHIVE_PH=0)")
+                    help="disable the archive.ph network lookup (or ARCHIVE_PH=0). "
+                         "Does not affect paywalled template links.")
     p.add_argument("--report", help="write per-item JSON report to this file")
     a = p.parse_args(argv)
     if a.free_domains is not None:
@@ -285,6 +441,16 @@ def parse_args(argv=None):
         with open(ff, encoding="utf-8") as f:
             a.free_domains += [l.strip().lower() for l in f
                                if l.strip() and not l.startswith("#")]
+    if a.paywalled_domains is not None:
+        raw_paywall = [d.strip().lower() for d in a.paywalled_domains.split(",") if d.strip()]
+    else:
+        raw_paywall = list(DEFAULT_PAYWALLED_DOMAINS)
+    pf = e("PAYWALLED_DOMAINS_FILE")
+    if pf and os.path.exists(pf):
+        with open(pf, encoding="utf-8") as f:
+            raw_paywall += [l.strip().lower() for l in f
+                            if l.strip() and not l.startswith("#")]
+    a.paywalled_rules = parse_paywall_spec(raw_paywall)
     return a
 
 
@@ -311,8 +477,10 @@ def main(argv=None):
     if args.report:
         with open(args.report, "w", encoding="utf-8") as f:
             json.dump(log, f, indent=1, ensure_ascii=False)
+    by_method = dict(Counter(row["method"] for row in log))
     st = resolver.stats
-    print(f"items={len(log)} new_lookups={resolver.new_lookups} stats={st}")
+    print(f"items={len(log)} new_lookups={resolver.new_lookups} "
+          f"by_method={by_method} stats={st}")
     return 0
 
 
