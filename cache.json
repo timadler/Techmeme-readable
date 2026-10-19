@@ -1,4 +1,9 @@
 {
+ "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019142934/https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+  "ts": 1792439977
+ },
  "https://fortune.com/2026/10/15/holyvolt-funding-45-million-battery-startup-ai-sweden-michigan-prast-ingvarsson/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261016181403/https://fortune.com/2026/10/15/holyvolt-funding-45-million-battery-startup-ai-sweden-michigan-prast-ingvarsson/",
@@ -14,6 +19,11 @@
   "resolved": "https://web.archive.org/web/20261019045047/https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/",
   "ts": 1792392332
  },
+ "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019190908/https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+  "ts": 1792439994
+ },
  "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019094847/https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
@@ -28,6 +38,11 @@
   "method": "fallback",
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
   "ts": 1792372923
+ },
+ "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics",
+  "ts": 1792439977
  },
  "https://www.bbc.com/news/articles/cm5yn098xz8lo": {
   "method": "wayback",
@@ -53,6 +68,11 @@
   "method": "fallback",
   "resolved": "https://www.bloomberg.com/news/articles/2026-10-19/foxconn-buys-727-million-stake-in-mitsubishi-electric-unit-that-makes-ev-parts",
   "ts": 1792419365
+ },
+ "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal": {
+  "method": "fallback",
+  "resolved": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+  "ts": 1792439974
  },
  "https://www.bloomberg.com/news/articles/2026-10-19/vinted-faces-influx-of-suspected-looted-goods-after-french-riots": {
   "method": "fallback",
@@ -109,20 +129,45 @@
   "resolved": "https://web.archive.org/web/20261018060343/https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9",
   "ts": 1792328241
  },
+ "https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/": {
+  "method": "fallback",
+  "resolved": "https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/",
+  "ts": 1792439985
+ },
  "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/": {
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
   "ts": 1792419354
+ },
+ "https://www.minimax.io/blog/minimax-m31f": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019195735/https://www.minimax.io/blog/minimax-m31f",
+  "ts": 1792439992
  },
  "https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018054958/https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/",
   "ts": 1792419364
  },
+ "https://www.propublica.org/article/cisa-election-security-donald-trump": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019191133/https://www.propublica.org/article/cisa-election-security-donald-trump",
+  "ts": 1792439992
+ },
+ "https://www.reuters.com/business/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors-2026-10-19/": {
+  "method": "fallback",
+  "resolved": "https://www.reuters.com/business/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors-2026-10-19/",
+  "ts": 1792439986
+ },
  "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019130019/https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
   "ts": 1792419355
+ },
+ "https://www.reuters.com/legal/government/us-supreme-court-rejects-music-labels-challenge-copyright-termination-ruling-2026-10-19/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261019183132/https://www.reuters.com/legal/government/us-supreme-court-rejects-music-labels-challenge-copyright-termination-ruling-2026-10-19/",
+  "ts": 1792439985
  },
  "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/": {
   "method": "fallback",
@@ -144,6 +189,11 @@
   "resolved": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
   "ts": 1792419353
  },
+ "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia": {
+  "method": "fallback",
+  "resolved": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+  "ts": 1792439979
+ },
  "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose": {
   "method": "fallback",
   "resolved": "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose",
@@ -153,6 +203,11 @@
   "method": "fallback",
   "resolved": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend",
   "ts": 1792392331
+ },
+ "https://www.upstartsmedia.com/p/tolan-raises-30m-for-ai-companion-you-trust": {
+  "method": "fallback",
+  "resolved": "https://www.upstartsmedia.com/p/tolan-raises-30m-for-ai-companion-you-trust",
+  "ts": 1792439978
  },
  "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/": {
   "method": "fallback",
@@ -173,5 +228,10 @@
   "method": "fallback",
   "resolved": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
   "ts": 1792419362
+ },
+ "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d?st=m6DV2n&reflink=desktopwebshare_permalink": {
+  "method": "fallback",
+  "resolved": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d?st=m6DV2n&reflink=desktopwebshare_permalink",
+  "ts": 1792439993
  }
 }
