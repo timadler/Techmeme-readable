@@ -199,6 +199,11 @@
   "resolved": "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/",
   "ts": 1792372920
  },
+ "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics": {
+  "method": "fallback",
+  "resolved": "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
+  "ts": 1792461765
+ },
  "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better": {
   "method": "fallback",
   "resolved": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
