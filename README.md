@@ -1,7 +1,7 @@
 # techmeme-readable
 
 Generates `docs/feed.xml`: a copy of the [Techmeme RSS feed](https://www.techmeme.com/feed.xml)
-(same title, pubDate, and guid per item) titled **"Techmeme (readable links)"**, where each
+(same title and pubDate per item; guid is the Techmeme permalink plus a stable suffix) titled **"Techmeme (readable links)"**, where each
 item's `<link>` — and the headline and thumbnail links inside the description — point to a readable
 version of the article instead of the Techmeme permalink or the publisher URL.
 
@@ -25,8 +25,12 @@ script tries, in order:
 
 Every `HREF` in the description that equals the article URL — the headline and the thumbnail — is
 rewritten to that same readable URL. Other links (the publisher homepage, the Techmeme permalink)
-are left alone. The original URL is appended to each description as `Original: <url>`. The `guid`
-is unchanged, so feed readers won't see duplicates.
+are left alone. The original publisher URL is appended after the readable headline as plain text,
+`Original (direct link): <url>`, not an `<a>` element, so a reader does not open the publisher from
+that line. Each item's `<guid>` is the Techmeme permalink plus a stable suffix (`GUID_SUFFIX`,
+default `readable-v2`, producing `<permalink>?readable-v2`) with `isPermaLink="false"`. The suffix
+changes the guid once so readers treat the item as new and pick up the rewritten link; it stays
+the same on later runs, so regenerating the feed does not create duplicates.
 
 Wayback and archive.ph *lookup* results are cached in `cache.json` (`url -> resolved, method, ts`).
 Hits are cached 30 days; failures (fallbacks) are retried after 3 hours. Paywalled resolutions are
@@ -65,6 +69,7 @@ Config (flag or env var):
 | `--paywalled-domains a.com,b.com/pro` | `PAYWALLED_DOMAINS` | built-in list (see `DEFAULT_PAYWALLED_DOMAINS`) |
 | – | `PAYWALLED_DOMAINS_FILE` | extra paywalled hosts, one per line (`host` or `host/path`) |
 | `--readable-url-template` | `READABLE_URL_TEMPLATE` | `https://www.removepaywall.com/search?url={url}` |
+| `--guid-suffix` | `GUID_SUFFIX` | `readable-v2` (guid = Techmeme permalink + `?` + suffix, `isPermaLink="false"`) |
 | `--output`, `--cache`, `--input`, `--report` | `OUTPUT`, `CACHE_FILE` | `docs/feed.xml`, `cache.json` |
 
 ## Deploy on GitHub

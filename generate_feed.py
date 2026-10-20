@@ -15,7 +15,11 @@ URL for the article's main headline link:
   5. fall back to the original article URL
 
 Headline and image HREFs in the description that point at the article are
-rewritten to the same URL. The original URL is appended as "Original: <url>".
+rewritten to the same URL. The publisher URL is appended after the headline
+as plain text ("Original (direct link): <url>"), not an <a> href, so readers
+do not follow it. Each item's <guid> is the Techmeme permalink plus a stable
+suffix (GUID_SUFFIX, default "readable-v2"), with isPermaLink="false", so
+readers treat rewritten items as new without duplicating them on later runs.
 Wayback/archive.ph lookup results are cached in cache.json. See README.md.
 """
 import argparse
@@ -98,6 +102,11 @@ DEFAULT_PAYWALLED_DOMAINS = [
 #   https://archive.ph/newest/{url_raw}
 # The URL is only constructed. Nothing is fetched from the template host.
 DEFAULT_READABLE_URL_TEMPLATE = "https://www.removepaywall.com/search?url={url}"
+
+# Appended to the Techmeme permalink to form each item's <guid>. Constant
+# across runs so regenerating the feed does not mint a new guid per item.
+# Override with --guid-suffix / GUID_SUFFIX (e.g. "readable=1" -> permalink?readable=1).
+DEFAULT_GUID_SUFFIX = "readable-v2"
 
 SUCCESS_TTL = 30 * 24 * 3600      # successful lookups: 30 days
 FAILURE_TTL = 3 * 3600            # failed lookups: retry after 3 hours
@@ -243,12 +252,37 @@ def lookup_archive_ph(session, url, timeout):
     return None
 
 
+def item_guid(permalink, suffix=DEFAULT_GUID_SUFFIX):
+    """Deterministic guid: the Techmeme permalink plus a stable suffix.
+
+    RSS readers identify items by guid. A new suffix makes an already-seen
+    story look new once, so they pick up the rewritten <link>. The same
+    permalink and suffix always produce the same string, so reruns do not
+    create duplicates. The result is an identifier, not a URL to open
+    (callers set isPermaLink="false").
+
+    A suffix that already starts with ?, #, or & is concatenated as-is.
+    Otherwise it is appended as a query, e.g. '<permalink>?readable-v2'
+    or '<permalink>?readable=1' when suffix is 'readable=1'.
+    """
+    base = (permalink or "").strip()
+    suffix = DEFAULT_GUID_SUFFIX if suffix is None else str(suffix).strip()
+    if not base:
+        return suffix
+    if not suffix:
+        return base
+    if suffix[0] in "?#&":
+        return base + suffix
+    sep = "&" if "?" in base else "?"
+    return f"{base}{sep}{suffix}"
+
+
 def rewrite_article_hrefs(desc, article, readable):
     """Point every HREF equal to the article URL at the readable URL.
 
     Publisher homepages, Techmeme permalinks, and other hrefs are left alone.
-    The caller appends the Original: line afterwards so that line keeps the
-    publisher URL.
+    The caller appends the original URL as plain text afterwards so that
+    line is not an href readers can follow to the publisher.
     """
     if not desc or not article or readable == article:
         return desc
@@ -379,19 +413,22 @@ def build_feed(source_xml, resolver):
         if art:
             new_link, method = resolver.resolve(art)
             new_desc = rewrite_article_hrefs(desc, art, new_link)
+            # Plain text after the readable headline. Not an <a>, so a reader
+            # does not treat the publisher URL as the item link. The outlet
+            # homepage href earlier in the description is left unchanged.
             new_desc = (new_desc.rstrip() +
-                        f'\n<P>Original: <A HREF="{html.escape(art, quote=True)}">'
-                        f'{html.escape(art)}</A></P>\n')
+                        "\n<P>Original (direct link): "
+                        f"{html.escape(art)}</P>\n")
         o = ET.SubElement(out_ch, "item")
         ET.SubElement(o, "title").text = title
         ET.SubElement(o, "link").text = new_link
         ET.SubElement(o, "description").text = new_desc
         ET.SubElement(o, "pubDate").text = item.findtext("pubDate")
         g = item.find("guid")
+        permalink = (g.text or "").strip() if g is not None and g.text else link
         ge = ET.SubElement(o, "guid")
-        ge.text = g.text if g is not None else link
-        if g is not None and g.get("isPermaLink"):
-            ge.set("isPermaLink", g.get("isPermaLink"))
+        ge.set("isPermaLink", "false")
+        ge.text = item_guid(permalink, resolver.args.guid_suffix)
         log.append({"title": title, "techmeme_link": link, "article": art,
                     "new_link": new_link, "method": method})
     ET.indent(out_root)
@@ -424,6 +461,12 @@ def parse_args(argv=None):
                         "{url_raw}=article as-is. No network call. "
                         "Default: removepaywall search URL. "
                         "Archive.ph swap: https://archive.ph/newest/{url_raw}")
+    p.add_argument("--guid-suffix",
+                   default=e("GUID_SUFFIX", DEFAULT_GUID_SUFFIX),
+                   help="stable suffix appended to each Techmeme permalink to "
+                        "form the item guid (default readable-v2), e.g. "
+                        "permalink?readable-v2. isPermaLink is always false. "
+                        "Keep this constant between runs.")
     ph = p.add_mutually_exclusive_group()
     ph.add_argument("--archive-ph", dest="archive_ph", action="store_true",
                     default=env_bool("ARCHIVE_PH", True))
