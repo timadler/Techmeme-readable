@@ -74,6 +74,11 @@
   "resolved": "https://web.archive.org/web/20261019062338/https://www.bbc.com/news/articles/cm5yn098xz8lo",
   "ts": 1792392335
  },
+ "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261020222441/https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "ts": 1792540579
+ },
  "https://www.bloomberg.com/news/articles/2026-10-15/gtcr-elliott-acquire-software-firm-ccc-for-4-6-billion": {
   "method": "fallback",
   "resolved": "https://www.bloomberg.com/news/articles/2026-10-15/gtcr-elliott-acquire-software-firm-ccc-for-4-6-billion",
