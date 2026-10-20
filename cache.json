@@ -109,6 +109,11 @@
   "resolved": "https://web.archive.org/web/20261019101257/https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
   "ts": 1792419367
  },
+ "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html",
+  "ts": 1792501102
+ },
  "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018140205/https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
@@ -164,10 +169,20 @@
   "resolved": "https://web.archive.org/web/20261019195735/https://www.minimax.io/blog/minimax-m31f",
   "ts": 1792439992
  },
+ "https://www.ookla.com/articles/london-mobile-2026": {
+  "method": "fallback",
+  "resolved": "https://www.ookla.com/articles/london-mobile-2026",
+  "ts": 1792501106
+ },
  "https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018054958/https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/",
   "ts": 1792419364
+ },
+ "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok-2/": {
+  "method": "fallback",
+  "resolved": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok-2/",
+  "ts": 1792501104
  },
  "https://www.propublica.org/article/cisa-election-security-donald-trump": {
   "method": "wayback",
@@ -223,6 +238,11 @@
   "method": "fallback",
   "resolved": "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose",
   "ts": 1792392342
+ },
+ "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261020125124/https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+  "ts": 1792501103
  },
  "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend": {
   "method": "fallback",
