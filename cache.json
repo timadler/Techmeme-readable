@@ -34,6 +34,11 @@
   "resolved": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
   "ts": 1792419363
  },
+ "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261020012333/https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+  "ts": 1792481971
+ },
  "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy": {
   "method": "fallback",
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
@@ -200,9 +205,9 @@
   "ts": 1792372920
  },
  "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics": {
-  "method": "fallback",
-  "resolved": "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
-  "ts": 1792461765
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261020071946/https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
+  "ts": 1792481972
  },
  "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better": {
   "method": "fallback",
