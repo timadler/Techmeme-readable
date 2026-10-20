@@ -44,10 +44,25 @@
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
   "ts": 1792372923
  },
+ "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/": {
+  "method": "fallback",
+  "resolved": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/",
+  "ts": 1792530506
+ },
+ "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development",
+  "ts": 1792530514
+ },
  "https://www.axios.com/2026/10/20/joel-kaplan-meta": {
   "method": "fallback",
   "resolved": "https://www.axios.com/2026/10/20/joel-kaplan-meta",
   "ts": 1792518612
+ },
+ "https://www.axios.com/2026/10/20/steve-cohen-hertz-robotaxi-80-million": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/10/20/steve-cohen-hertz-robotaxi-80-million",
+  "ts": 1792530513
  },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
@@ -123,6 +138,16 @@
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
   "ts": 1792518616
+ },
+ "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+  "ts": 1792530512
+ },
+ "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261020155036/https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html",
+  "ts": 1792530511
  },
  "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash": {
   "method": "wayback",
