@@ -1,4 +1,9 @@
 {
+ "https://claude.com/resources/articles/claude-duet": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021205409/https://claude.com/resources/articles/claude-duet",
+  "ts": 1792620214
+ },
  "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019142934/https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
@@ -18,6 +23,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019045047/https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/",
   "ts": 1792392332
+ },
+ "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021202332/https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+  "ts": 1792620214
  },
  "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/": {
   "method": "wayback",
@@ -337,7 +347,7 @@
  "https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics": {
   "method": "fallback",
   "resolved": "https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics",
-  "ts": 1792608303
+  "ts": 1792620215
  },
  "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/": {
   "method": "fallback",
