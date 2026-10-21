@@ -44,6 +44,11 @@
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
   "ts": 1792372923
  },
+ "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021181145/https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+  "ts": 1792608305
+ },
  "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/": {
   "method": "fallback",
   "resolved": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/",
@@ -159,6 +164,11 @@
   "resolved": "https://web.archive.org/web/20261020155036/https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html",
   "ts": 1792530511
  },
+ "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021173859/https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+  "ts": 1792608302
+ },
  "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html": {
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
@@ -240,9 +250,9 @@
   "ts": 1792501104
  },
  "https://www.php.net/archive/2026.php#2026-10-21-5": {
-  "method": "fallback",
-  "resolved": "https://www.php.net/archive/2026.php#2026-10-21-5",
-  "ts": 1792592287
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021172629/https://www.php.net/archive/2026.php",
+  "ts": 1792608306
  },
  "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385": {
   "method": "fallback",
@@ -323,6 +333,11 @@
   "method": "fallback",
   "resolved": "https://www.upstartsmedia.com/p/tolan-raises-30m-for-ai-companion-you-trust",
   "ts": 1792452610
+ },
+ "https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics": {
+  "method": "fallback",
+  "resolved": "https://www.upstartsmedia.com/p/watchtower-35m-defense-logistics",
+  "ts": 1792608303
  },
  "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/": {
   "method": "fallback",
