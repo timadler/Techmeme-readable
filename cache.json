@@ -219,6 +219,11 @@
   "resolved": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
   "ts": 1792592475
  },
+ "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+  "ts": 1792709005
+ },
  "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018140205/https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
@@ -272,7 +277,7 @@
  "https://www.geekwire.com/2026/microsoft-shuts-the-door-on-the-garage-the-central-program-behind-its-hackathon-and-maker-spaces/": {
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/microsoft-shuts-the-door-on-the-garage-the-central-program-behind-its-hackathon-and-maker-spaces/",
-  "ts": 1792697355
+  "ts": 1792709007
  },
  "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/": {
   "method": "fallback",
@@ -317,7 +322,7 @@
  "https://www.politico.com/news/2026/10/21/amazon-trump-midterms-settlement-01130666": {
   "method": "fallback",
   "resolved": "https://www.politico.com/news/2026/10/21/amazon-trump-midterms-settlement-01130666",
-  "ts": 1792697353
+  "ts": 1792709006
  },
  "https://www.politico.com/news/2026/10/22/technology-support-office-dod-tech-spyware-sabotage-01100327": {
   "method": "wayback",
