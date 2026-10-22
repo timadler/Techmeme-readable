@@ -9,6 +9,11 @@
   "resolved": "https://web.archive.org/web/20261021205409/https://claude.com/resources/articles/claude-duet",
   "ts": 1792620214
  },
+ "https://daringfireball.net/2026/10/the_iphone_duo": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261022062630/https://daringfireball.net/2026/10/the_iphone_duo",
+  "ts": 1792665526
+ },
  "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019142934/https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
@@ -43,6 +48,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019094847/https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
   "ts": 1792419360
+ },
+ "https://newsletter.semianalysis.com/p/huawei-deepseek": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261022005140/https://newsletter.semianalysis.com/p/huawei-deepseek",
+  "ts": 1792665525
  },
  "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/": {
   "method": "fallback",
@@ -208,6 +218,11 @@
   "method": "fallback",
   "resolved": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/",
   "ts": 1792449096
+ },
+ "https://www.foreignaffairs.com/china/empires-artificial-intelligence-ferguson-klaassen-schmidt": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261021073140/https://www.foreignaffairs.com/china/empires-artificial-intelligence-ferguson-klaassen-schmidt",
+  "ts": 1792665527
  },
  "https://www.ft.com/content/555bbf91-4c38-43ce-94b6-90f7fc04e82c": {
   "method": "fallback",
