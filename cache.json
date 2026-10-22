@@ -44,6 +44,11 @@
   "resolved": "https://web.archive.org/web/20261019190908/https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
   "ts": 1792439994
  },
+ "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/": {
+  "method": "fallback",
+  "resolved": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
+  "ts": 1792683527
+ },
  "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019094847/https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
@@ -58,6 +63,11 @@
   "method": "fallback",
   "resolved": "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/",
   "ts": 1792647605
+ },
+ "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/": {
+  "method": "fallback",
+  "resolved": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/",
+  "ts": 1792683529
  },
  "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/": {
   "method": "fallback",
@@ -298,6 +308,11 @@
   "method": "fallback",
   "resolved": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
   "ts": 1792518613
+ },
+ "https://www.politico.com/news/2026/10/22/technology-support-office-dod-tech-spyware-sabotage-01100327": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261022144502/https://www.politico.com/news/2026/10/22/technology-support-office-dod-tech-spyware-sabotage-01100327",
+  "ts": 1792683527
  },
  "https://www.propublica.org/article/cisa-election-security-donald-trump": {
   "method": "wayback",
