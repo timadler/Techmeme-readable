@@ -269,6 +269,11 @@
   "resolved": "https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/",
   "ts": 1792439985
  },
+ "https://www.geekwire.com/2026/microsoft-shuts-the-door-on-the-garage-the-central-program-behind-its-hackathon-and-maker-spaces/": {
+  "method": "fallback",
+  "resolved": "https://www.geekwire.com/2026/microsoft-shuts-the-door-on-the-garage-the-central-program-behind-its-hackathon-and-maker-spaces/",
+  "ts": 1792697355
+ },
  "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/": {
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
@@ -308,6 +313,11 @@
   "method": "fallback",
   "resolved": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
   "ts": 1792518613
+ },
+ "https://www.politico.com/news/2026/10/21/amazon-trump-midterms-settlement-01130666": {
+  "method": "fallback",
+  "resolved": "https://www.politico.com/news/2026/10/21/amazon-trump-midterms-settlement-01130666",
+  "ts": 1792697353
  },
  "https://www.politico.com/news/2026/10/22/technology-support-office-dod-tech-spyware-sabotage-01100327": {
   "method": "wayback",
@@ -423,5 +433,10 @@
   "method": "fallback",
   "resolved": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/",
   "ts": 1792592334
+ },
+ "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261022184857/https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/",
+  "ts": 1792697354
  }
 }
