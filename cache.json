@@ -14,6 +14,11 @@
   "resolved": "https://web.archive.org/web/20261021205409/https://claude.com/resources/articles/claude-duet",
   "ts": 1792620214
  },
+ "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026": {
+  "method": "fallback",
+  "resolved": "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026",
+  "ts": 1792785540
+ },
  "https://daringfireball.net/2026/10/the_iphone_duo": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261022062630/https://daringfireball.net/2026/10/the_iphone_duo",
@@ -74,6 +79,11 @@
   "resolved": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/",
   "ts": 1792683529
  },
+ "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": {
+  "method": "fallback",
+  "resolved": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+  "ts": 1792785538
+ },
  "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/": {
   "method": "fallback",
   "resolved": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
@@ -103,6 +113,11 @@
   "method": "fallback",
   "resolved": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/",
   "ts": 1792552600
+ },
+ "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident": {
+  "method": "fallback",
+  "resolved": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+  "ts": 1792785543
  },
  "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development": {
   "method": "fallback",
@@ -293,6 +308,11 @@
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
   "ts": 1792419354
+ },
+ "https://www.kimi.ai/blog/kimi-k3-1-pro": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261023192104/https://www.kimi.ai/blog/kimi-k3-1-pro",
+  "ts": 1792785542
  },
  "https://www.minimax.io/blog/minimax-m31f": {
   "method": "wayback",
