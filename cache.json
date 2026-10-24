@@ -17,7 +17,7 @@
  "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026": {
   "method": "fallback",
   "resolved": "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026",
-  "ts": 1792785540
+  "ts": 1792805031
  },
  "https://daringfireball.net/2026/10/the_iphone_duo": {
   "method": "wayback",
@@ -82,7 +82,7 @@
  "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": {
   "method": "fallback",
   "resolved": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
-  "ts": 1792785538
+  "ts": 1792805031
  },
  "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/": {
   "method": "fallback",
@@ -115,9 +115,9 @@
   "ts": 1792552600
  },
  "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident": {
-  "method": "fallback",
-  "resolved": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
-  "ts": 1792785543
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261023205424/https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+  "ts": 1792805032
  },
  "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development": {
   "method": "fallback",
@@ -143,6 +143,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019062338/https://www.bbc.com/news/articles/cm5yn098xz8lo",
   "ts": 1792392335
+ },
+ "https://www.bbc.com/news/articles/cqdjv8xllvyyo": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261024001111/https://www.bbc.com/news/articles/cqdjv8xllvyyo",
+  "ts": 1792805030
  },
  "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/": {
   "method": "wayback",
