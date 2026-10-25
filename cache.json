@@ -117,7 +117,7 @@
  "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations": {
   "method": "fallback",
   "resolved": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
-  "ts": 1792905241
+  "ts": 1792921899
  },
  "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident": {
   "method": "wayback",
@@ -278,6 +278,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261023013440/https://www.dwarkesh.com/p/intel-tour",
   "ts": 1792772233
+ },
+ "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care": {
+  "method": "fallback",
+  "resolved": "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care",
+  "ts": 1792921899
  },
  "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/": {
   "method": "fallback",
