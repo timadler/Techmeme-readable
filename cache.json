@@ -114,6 +114,11 @@
   "resolved": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/",
   "ts": 1792552600
  },
+ "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations": {
+  "method": "fallback",
+  "resolved": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+  "ts": 1792905241
+ },
  "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261023205424/https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
