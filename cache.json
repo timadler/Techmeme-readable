@@ -9,10 +9,20 @@
   "resolved": "https://web.archive.org/web/20261021235230/https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
   "ts": 1792629753
  },
+ "https://buildingslack.com/salesforce-part-two/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026120411/https://buildingslack.com/salesforce-part-two/",
+  "ts": 1793016337
+ },
  "https://claude.com/resources/articles/claude-duet": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261021205409/https://claude.com/resources/articles/claude-duet",
   "ts": 1792620214
+ },
+ "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026105719/https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+  "ts": 1793016332
  },
  "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026": {
   "method": "fallback",
@@ -54,10 +64,20 @@
   "resolved": "https://web.archive.org/web/20261019190908/https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
   "ts": 1792439994
  },
+ "https://minimaxir.com/2026/10/cheap-llms/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026091932/https://minimaxir.com/2026/10/cheap-llms/",
+  "ts": 1793016335
+ },
  "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/": {
   "method": "fallback",
   "resolved": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
   "ts": 1792683527
+ },
+ "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/": {
+  "method": "fallback",
+  "resolved": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+  "ts": 1793016331
  },
  "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration": {
   "method": "wayback",
