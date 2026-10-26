@@ -344,6 +344,11 @@
   "resolved": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
   "ts": 1792419354
  },
+ "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
+  "method": "fallback",
+  "resolved": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+  "ts": 1792975374
+ },
  "https://www.kimi.ai/blog/kimi-k3-1-pro": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261023192104/https://www.kimi.ai/blog/kimi-k3-1-pro",
