@@ -74,6 +74,11 @@
   "resolved": "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/",
   "ts": 1792647605
  },
+ "https://spyglass.org/amazon-bee/": {
+  "method": "fallback",
+  "resolved": "https://spyglass.org/amazon-bee/",
+  "ts": 1792993321
+ },
  "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/": {
   "method": "fallback",
   "resolved": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/",
@@ -152,7 +157,7 @@
  "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability": {
   "method": "fallback",
   "resolved": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
-  "ts": 1792967914
+  "ts": 1792993327
  },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
@@ -287,7 +292,7 @@
  "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care": {
   "method": "fallback",
   "resolved": "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care",
-  "ts": 1792967914
+  "ts": 1792993328
  },
  "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/": {
   "method": "fallback",
@@ -345,9 +350,9 @@
   "ts": 1792419354
  },
  "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
-  "method": "fallback",
-  "resolved": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
-  "ts": 1792975374
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026025322/https://www.ifixit.com/News/119895/iphone-duo-teardown",
+  "ts": 1792993326
  },
  "https://www.kimi.ai/blog/kimi-k3-1-pro": {
   "method": "wayback",
