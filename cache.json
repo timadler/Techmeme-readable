@@ -19,6 +19,11 @@
   "resolved": "https://web.archive.org/web/20261021205409/https://claude.com/resources/articles/claude-duet",
   "ts": 1792620214
  },
+ "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026164024/https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+  "ts": 1793040163
+ },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261026105719/https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
@@ -179,6 +184,11 @@
   "resolved": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
   "ts": 1792993327
  },
+ "https://www.axios.com/2026/10/26/anthropic-trump-ai-safety-ipo-risks": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/10/26/anthropic-trump-ai-safety-ipo-risks",
+  "ts": 1793040168
+ },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
   "resolved": "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics",
@@ -193,6 +203,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261024001111/https://www.bbc.com/news/articles/cqdjv8xllvyyo",
   "ts": 1792805030
+ },
+ "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026164641/https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+  "ts": 1793040167
  },
  "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/": {
   "method": "wayback",
@@ -303,6 +318,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018140205/https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
   "ts": 1792392334
+ },
+ "https://www.culpium.com/p/anthropic-s1-now-live-first-look": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026170851/https://www.culpium.com/p/anthropic-s1-now-live-first-look",
+  "ts": 1793040162
  },
  "https://www.dwarkesh.com/p/intel-tour": {
   "method": "wayback",
