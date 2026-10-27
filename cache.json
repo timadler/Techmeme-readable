@@ -334,10 +334,15 @@
   "resolved": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
   "ts": 1793107019
  },
+ "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
+  "ts": 1793141367
+ },
  "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html": {
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
-  "ts": 1793126666
+  "ts": 1793141368
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
@@ -427,7 +432,7 @@
  "https://www.geekwire.com/2026/seattle-startup-avante-raises-30m-to-bring-ai-agents-to-corporate-benefits-teams/": {
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/seattle-startup-avante-raises-30m-to-bring-ai-agents-to-corporate-benefits-teams/",
-  "ts": 1793126666
+  "ts": 1793141367
  },
  "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
   "method": "wayback",
