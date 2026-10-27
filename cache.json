@@ -37,7 +37,7 @@
  "https://cybersecuritynews.com/microsoft-authenticator-flaw/": {
   "method": "fallback",
   "resolved": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
-  "ts": 1793085166
+  "ts": 1793107025
  },
  "https://daringfireball.net/2026/10/the_iphone_duo": {
   "method": "wayback",
@@ -98,6 +98,16 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261022005140/https://newsletter.semianalysis.com/p/huawei-deepseek",
   "ts": 1792665525
+ },
+ "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026211206/https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+  "ts": 1793107019
+ },
+ "https://sfstandard.com/2026/10/26/anthropic-cofounder-mystery-ben-mann/": {
+  "method": "fallback",
+  "resolved": "https://sfstandard.com/2026/10/26/anthropic-cofounder-mystery-ben-mann/",
+  "ts": 1793107025
  },
  "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/": {
   "method": "fallback",
@@ -318,6 +328,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261023010623/https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
   "ts": 1792735463
+ },
+ "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
+  "ts": 1793107019
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
