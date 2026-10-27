@@ -34,6 +34,11 @@
   "resolved": "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026",
   "ts": 1792841605
  },
+ "https://cybersecuritynews.com/microsoft-authenticator-flaw/": {
+  "method": "fallback",
+  "resolved": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
+  "ts": 1793085166
+ },
  "https://daringfireball.net/2026/10/the_iphone_duo": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261022062630/https://daringfireball.net/2026/10/the_iphone_duo",
@@ -317,7 +322,7 @@
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
   "resolved": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
-  "ts": 1793066134
+  "ts": 1793085167
  },
  "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash": {
   "method": "wayback",
@@ -332,7 +337,7 @@
  "https://www.dcrainmaker.com/2026/10/fitbit-edge-depth-review-worth-the-upgrade.html": {
   "method": "fallback",
   "resolved": "https://www.dcrainmaker.com/2026/10/fitbit-edge-depth-review-worth-the-upgrade.html",
-  "ts": 1793066135
+  "ts": 1793085168
  },
  "https://www.dwarkesh.com/p/intel-tour": {
   "method": "wayback",
@@ -413,6 +418,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019195735/https://www.minimax.io/blog/minimax-m31f",
   "ts": 1792439992
+ },
+ "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261026203025/https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733",
+  "ts": 1793085167
  },
  "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering": {
   "method": "wayback",
