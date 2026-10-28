@@ -379,6 +379,11 @@
   "resolved": "https://web.archive.org/web/20261027191009/https://www.coindesk.com/policy/2026/10/27/u-s-agency-hits-utah-with-lawsuit-to-shield-kalshi-s-ability-to-offer-betting-there",
   "ts": 1793174634
  },
+ "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow": {
+  "method": "fallback",
+  "resolved": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+  "ts": 1793200187
+ },
  "https://www.culpium.com/p/anthropic-s1-now-live-first-look": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261026170851/https://www.culpium.com/p/anthropic-s1-now-live-first-look",
@@ -543,6 +548,11 @@
   "method": "fallback",
   "resolved": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/",
   "ts": 1792392343
+ },
+ "https://www.sfchronicle.com/bayarea/article/open-ai-engineer-indicted-for-bugging-headquarters-22497813.php": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261028053227/https://www.sfchronicle.com/bayarea/article/open-ai-engineer-indicted-for-bugging-headquarters-22497813.php",
+  "ts": 1793200192
  },
  "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7": {
   "method": "fallback",
