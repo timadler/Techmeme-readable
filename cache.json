@@ -134,6 +134,11 @@
   "resolved": "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/",
   "ts": 1792647605
  },
+ "https://siliconangle.com/2026/10/29/solink-raises-more-than-100m-to-pull-business-data-from-security-cameras-with-ai/": {
+  "method": "fallback",
+  "resolved": "https://siliconangle.com/2026/10/29/solink-raises-more-than-100m-to-pull-business-data-from-security-cameras-with-ai/",
+  "ts": 1793298662
+ },
  "https://spyglass.org/amazon-bee/": {
   "method": "fallback",
   "resolved": "https://spyglass.org/amazon-bee/",
@@ -584,6 +589,11 @@
   "resolved": "https://web.archive.org/web/20261022144502/https://www.politico.com/news/2026/10/22/technology-support-office-dod-tech-spyware-sabotage-01100327",
   "ts": 1792683527
  },
+ "https://www.politico.com/news/2026/10/29/la-mayor-airbnb-olympics-01137680": {
+  "method": "fallback",
+  "resolved": "https://www.politico.com/news/2026/10/29/la-mayor-airbnb-olympics-01137680",
+  "ts": 1793298659
+ },
  "https://www.propublica.org/article/cisa-election-security-donald-trump": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019191133/https://www.propublica.org/article/cisa-election-security-donald-trump",
@@ -613,6 +623,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261028053227/https://www.sfchronicle.com/bayarea/article/open-ai-engineer-indicted-for-bugging-headquarters-22497813.php",
   "ts": 1793200192
+ },
+ "https://www.sltrib.com/news/2026/10/28/utah-files-14-criminal-charges/": {
+  "method": "fallback",
+  "resolved": "https://www.sltrib.com/news/2026/10/28/utah-files-14-criminal-charges/",
+  "ts": 1793298659
  },
  "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7": {
   "method": "fallback",
@@ -708,6 +723,11 @@
   "method": "fallback",
   "resolved": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/",
   "ts": 1792592334
+ },
+ "https://www.zdnet.com/innovation/mistral-large-4-weights-release/": {
+  "method": "fallback",
+  "resolved": "https://www.zdnet.com/innovation/mistral-large-4-weights-release/",
+  "ts": 1793298662
  },
  "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/": {
   "method": "wayback",
