@@ -194,6 +194,11 @@
   "resolved": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/",
   "ts": 1792552600
  },
+ "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited": {
+  "method": "fallback",
+  "resolved": "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited",
+  "ts": 1793253252
+ },
  "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations": {
   "method": "fallback",
   "resolved": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
@@ -398,6 +403,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261027235657/https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
   "ts": 1793152722
+ },
+ "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261029050914/https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+  "ts": 1793253252
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
@@ -623,6 +633,11 @@
   "method": "fallback",
   "resolved": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-picks-openshell-to-tame-ai-gents/5304319",
   "ts": 1792592428
+ },
+ "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181": {
+  "method": "fallback",
+  "resolved": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
+  "ts": 1793253251
  },
  "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887": {
   "method": "fallback",
