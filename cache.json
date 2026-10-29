@@ -254,6 +254,11 @@
   "resolved": "https://www.axios.com/2026/10/26/anthropic-trump-ai-safety-ipo-risks",
   "ts": 1793040168
  },
+ "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito",
+  "ts": 1793314609
+ },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
   "resolved": "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics",
@@ -333,6 +338,11 @@
   "method": "fallback",
   "resolved": "https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MjMzMjI1NywiZXhwIjoxNzkyOTM3MDU3LCJhcnRpY2xlSWQiOiJUTjNXODFLR1pBSjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.SXy771LY1gAlXt2MmZODtLQ3lEquvyiefNIH-i7IZHQ",
   "ts": 1792372919
+ },
+ "https://www.businesswire.com/news/home/20261028373648/en/": {
+  "method": "fallback",
+  "resolved": "https://www.businesswire.com/news/home/20261028373648/en/",
+  "ts": 1793314611
  },
  "https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx": {
   "method": "fallback",
@@ -418,6 +428,26 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261027235657/https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
   "ts": 1793152722
+ },
+ "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261029213809/https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+  "ts": 1793314609
+ },
+ "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+  "ts": 1793314604
+ },
+ "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+  "ts": 1793314607
+ },
+ "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+  "ts": 1793314604
  },
  "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html": {
   "method": "wayback",
