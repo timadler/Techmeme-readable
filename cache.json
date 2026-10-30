@@ -572,7 +572,7 @@
  "https://www.marketwatch.com/story/twilio-lifts-outlook-after-higher-3q-profit-revenue-c94a2d4f": {
   "method": "fallback",
   "resolved": "https://www.marketwatch.com/story/twilio-lifts-outlook-after-higher-3q-profit-revenue-c94a2d4f",
-  "ts": 1793327093
+  "ts": 1793350610
  },
  "https://www.minimax.io/blog/minimax-m31f": {
   "method": "wayback",
@@ -582,7 +582,12 @@
  "https://www.morningstar.com/news/marketwatch/20261029556/sandisk-sees-revenue-nearly-quintuple-and-a-stock-split-is-on-the-way": {
   "method": "fallback",
   "resolved": "https://www.morningstar.com/news/marketwatch/20261029556/sandisk-sees-revenue-nearly-quintuple-and-a-stock-split-is-on-the-way",
-  "ts": 1793327099
+  "ts": 1793350612
+ },
+ "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343": {
+  "method": "fallback",
+  "resolved": "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343",
+  "ts": 1793350610
  },
  "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733": {
   "method": "wayback",
