@@ -149,6 +149,11 @@
   "resolved": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/",
   "ts": 1792683529
  },
+ "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/": {
+  "method": "fallback",
+  "resolved": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
+  "ts": 1793374415
+ },
  "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": {
   "method": "fallback",
   "resolved": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
@@ -587,7 +592,7 @@
  "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343": {
   "method": "fallback",
   "resolved": "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343",
-  "ts": 1793350610
+  "ts": 1793374416
  },
  "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733": {
   "method": "wayback",
