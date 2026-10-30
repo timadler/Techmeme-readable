@@ -437,7 +437,7 @@
  "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html": {
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
-  "ts": 1793314604
+  "ts": 1793327100
  },
  "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html": {
   "method": "fallback",
@@ -569,10 +569,20 @@
   "resolved": "https://web.archive.org/web/20261028222809/https://www.macstories.net/stories/macbook-pro-with-touch-a-mac-for-the-ipad-generation/",
   "ts": 1793275669
  },
+ "https://www.marketwatch.com/story/twilio-lifts-outlook-after-higher-3q-profit-revenue-c94a2d4f": {
+  "method": "fallback",
+  "resolved": "https://www.marketwatch.com/story/twilio-lifts-outlook-after-higher-3q-profit-revenue-c94a2d4f",
+  "ts": 1793327093
+ },
  "https://www.minimax.io/blog/minimax-m31f": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019195735/https://www.minimax.io/blog/minimax-m31f",
   "ts": 1792439992
+ },
+ "https://www.morningstar.com/news/marketwatch/20261029556/sandisk-sees-revenue-nearly-quintuple-and-a-stock-split-is-on-the-way": {
+  "method": "fallback",
+  "resolved": "https://www.morningstar.com/news/marketwatch/20261029556/sandisk-sees-revenue-nearly-quintuple-and-a-stock-split-is-on-the-way",
+  "ts": 1793327099
  },
  "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733": {
   "method": "wayback",
