@@ -29,6 +29,11 @@
   "resolved": "https://web.archive.org/web/20261026164024/https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
   "ts": 1793040163
  },
+ "https://commanding-heights.com/#top": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261031082612/https://commanding-heights.com/",
+  "ts": 1793441236
+ },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261026105719/https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
@@ -469,6 +474,11 @@
   "resolved": "https://web.archive.org/web/20261030203222/https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
   "ts": 1793404303
  },
+ "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261030223809/https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+  "ts": 1793441240
+ },
  "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html": {
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
@@ -562,7 +572,7 @@
  "https://www.geekwire.com/2026/filing-chip-startup-powerlattice-raises-86m-to-ease-ais-power-crunch/": {
   "method": "fallback",
   "resolved": "https://www.geekwire.com/2026/filing-chip-startup-powerlattice-raises-86m-to-ease-ais-power-crunch/",
-  "ts": 1793418151
+  "ts": 1793441240
  },
  "https://www.geekwire.com/2026/microsoft-shuts-the-door-on-the-garage-the-central-program-behind-its-hackathon-and-maker-spaces/": {
   "method": "fallback",
@@ -743,6 +753,11 @@
   "method": "fallback",
   "resolved": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
   "ts": 1793174635
+ },
+ "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261030182841/https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+  "ts": 1793441237
  },
  "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach": {
   "method": "wayback",
