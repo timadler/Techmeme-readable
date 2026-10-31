@@ -174,6 +174,11 @@
   "resolved": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
   "ts": 1792419363
  },
+ "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261031152023/https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+  "ts": 1793475602
+ },
  "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261021214312/https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
