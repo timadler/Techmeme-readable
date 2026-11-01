@@ -29,6 +29,11 @@
   "resolved": "https://web.archive.org/web/20261026164024/https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
   "ts": 1793040163
  },
+ "https://colossus.com/article/michael-kratsios-office-frontier-ostp/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261101051110/https://colossus.com/article/michael-kratsios-office-frontier-ostp/",
+  "ts": 1793562798
+ },
  "https://commanding-heights.com/#top": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261031082612/https://commanding-heights.com/",
@@ -139,6 +144,11 @@
   "resolved": "https://sfstandard.com/2026/10/26/anthropic-cofounder-mystery-ben-mann/",
   "ts": 1793107025
  },
+ "https://sfstandard.com/2026/10/30/colossus-glossy-quarterly-silicon-valley/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261101194704/https://sfstandard.com/2026/10/30/colossus-glossy-quarterly-silicon-valley/",
+  "ts": 1793562794
+ },
  "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/": {
   "method": "fallback",
   "resolved": "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done/",
@@ -167,7 +177,7 @@
  "https://technode.com/2026/10/28/brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding/": {
   "method": "fallback",
   "resolved": "https://technode.com/2026/10/28/brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding/",
-  "ts": 1793546790
+  "ts": 1793562799
  },
  "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": {
   "method": "fallback",
@@ -373,6 +383,11 @@
   "method": "fallback",
   "resolved": "https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx",
   "ts": 1792872264
+ },
+ "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm": {
+  "method": "fallback",
+  "resolved": "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm",
+  "ts": 1793562793
  },
  "https://www.cityam.com/legora-raises-550-in-funding-to-lead-global-expansion/": {
   "method": "fallback",
