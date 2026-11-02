@@ -144,6 +144,11 @@
   "resolved": "https://web.archive.org/web/20261022005140/https://newsletter.semianalysis.com/p/huawei-deepseek",
   "ts": 1792665525
  },
+ "https://nymag.com/intelligencer/article/charles-porch-openai-sam-altman-instagram-gwyneth-paltrow.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261102183005/https://nymag.com/intelligencer/article/charles-porch-openai-sam-altman-instagram-gwyneth-paltrow.html",
+  "ts": 1793649478
+ },
  "https://nymag.com/intelligencer/article/down-and-out-in-the-app-store.html": {
   "method": "fallback",
   "resolved": "https://nymag.com/intelligencer/article/down-and-out-in-the-app-store.html",
@@ -544,6 +549,11 @@
   "resolved": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
   "ts": 1793418152
  },
+ "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261102190505/https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+  "ts": 1793649477
+ },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
   "resolved": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
@@ -819,10 +829,20 @@
   "resolved": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
   "ts": 1793253251
  },
+ "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261102164941/https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+  "ts": 1793649472
+ },
  "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887": {
   "method": "fallback",
   "resolved": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
   "ts": 1793174635
+ },
+ "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261102170852/https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+  "ts": 1793649475
  },
  "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization": {
   "method": "wayback",
