@@ -132,7 +132,7 @@
  "https://nymag.com/intelligencer/article/down-and-out-in-the-app-store.html": {
   "method": "fallback",
   "resolved": "https://nymag.com/intelligencer/article/down-and-out-in-the-app-store.html",
-  "ts": 1793575092
+  "ts": 1793586991
  },
  "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/": {
   "method": "fallback",
@@ -402,7 +402,7 @@
  "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm": {
   "method": "fallback",
   "resolved": "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm",
-  "ts": 1793575093
+  "ts": 1793586992
  },
  "https://www.cityam.com/legora-raises-550-in-funding-to-lead-global-expansion/": {
   "method": "fallback",
