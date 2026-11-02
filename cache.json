@@ -89,6 +89,11 @@
   "resolved": "https://web.archive.org/web/20261101222740/https://gamesbeat.com/saudi-arabias-aramco-buy-49-stake-in-ai-firm-humain-for-2-6b/",
   "ts": 1793575091
  },
+ "https://gizmodo.com/popular-fan-fiction-site-ao3-could-be-offline-for-a-month-following-security-incident-2000833091": {
+  "method": "fallback",
+  "resolved": "https://gizmodo.com/popular-fan-fiction-site-ao3-could-be-offline-for-a-month-following-security-incident-2000833091",
+  "ts": 1793613359
+ },
  "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261021202332/https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
@@ -98,6 +103,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019190908/https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
   "ts": 1792439994
+ },
+ "https://labs.ycombinator.com/projects/games/index.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261031141033/https://labs.ycombinator.com/projects/games/index.html",
+  "ts": 1793613362
  },
  "https://minimaxir.com/2026/10/cheap-llms/": {
   "method": "wayback",
@@ -123,6 +133,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019094847/https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
   "ts": 1792419360
+ },
+ "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261102033055/https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+  "ts": 1793613364
  },
  "https://newsletter.semianalysis.com/p/huawei-deepseek": {
   "method": "wayback",
@@ -399,6 +414,11 @@
   "resolved": "https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx",
   "ts": 1792872264
  },
+ "https://www.calcalistech.com/ctechnews/article/s1t5soetmx": {
+  "method": "fallback",
+  "resolved": "https://www.calcalistech.com/ctechnews/article/s1t5soetmx",
+  "ts": 1793613363
+ },
  "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm": {
   "method": "fallback",
   "resolved": "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm",
@@ -559,10 +579,20 @@
   "resolved": "https://web.archive.org/web/20261023013440/https://www.dwarkesh.com/p/intel-tour",
   "ts": 1792772233
  },
+ "https://www.eu-startups.com/2026/10/profitable-dutch-startup-braid-raises-e34-12-to-help-brands-launch-their-own-mobile-connectivity/": {
+  "method": "fallback",
+  "resolved": "https://www.eu-startups.com/2026/10/profitable-dutch-startup-braid-raises-e34-12-to-help-brands-launch-their-own-mobile-connectivity/",
+  "ts": 1793613364
+ },
  "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care": {
   "method": "fallback",
   "resolved": "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care",
   "ts": 1792993328
+ },
+ "https://www.fiercehealthcare.com/finance/vera-health-secures-285m-series-ai-driven-clinical-search-engine": {
+  "method": "fallback",
+  "resolved": "https://www.fiercehealthcare.com/finance/vera-health-secures-285m-series-ai-driven-clinical-search-engine",
+  "ts": 1793613370
  },
  "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/": {
   "method": "fallback",
