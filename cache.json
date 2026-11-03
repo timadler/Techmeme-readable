@@ -144,6 +144,11 @@
   "resolved": "https://web.archive.org/web/20261022005140/https://newsletter.semianalysis.com/p/huawei-deepseek",
   "ts": 1792665525
  },
+ "https://nymag.com/intelligencer/article/alex-bores-who-decides-pac-ai-2028-democratic-presidential-primary.html": {
+  "method": "fallback",
+  "resolved": "https://nymag.com/intelligencer/article/alex-bores-who-decides-pac-ai-2028-democratic-presidential-primary.html",
+  "ts": 1793698704
+ },
  "https://nymag.com/intelligencer/article/charles-porch-openai-sam-altman-instagram-gwyneth-paltrow.html": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261102183005/https://nymag.com/intelligencer/article/charles-porch-openai-sam-altman-instagram-gwyneth-paltrow.html",
@@ -862,7 +867,7 @@
  "https://www.thewrap.com/industry-news/business/apple-earnings-q4-2026/": {
   "method": "fallback",
   "resolved": "https://www.thewrap.com/industry-news/business/apple-earnings-q4-2026/",
-  "ts": 1793671365
+  "ts": 1793698705
  },
  "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks": {
   "method": "wayback",
