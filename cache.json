@@ -344,6 +344,11 @@
   "resolved": "https://web.archive.org/web/20261101194138/https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
   "ts": 1793575092
  },
+ "https://www.axios.com/2026/11/03/corridian-seed-auv-new-england": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/11/03/corridian-seed-auv-new-england",
+  "ts": 1793726358
+ },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
   "resolved": "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics",
@@ -363,6 +368,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261024001111/https://www.bbc.com/news/articles/cqdjv8xllvyyo",
   "ts": 1792805030
+ },
+ "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20": {
+  "method": "fallback",
+  "resolved": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+  "ts": 1793726352
  },
  "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/": {
   "method": "wayback",
