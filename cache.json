@@ -164,6 +164,11 @@
   "resolved": "https://nymag.com/intelligencer/article/down-and-out-in-the-app-store.html",
   "ts": 1793586991
  },
+ "https://pathfounders.com/p/breaking-sequoia-shuts-london-office-in-shock-european-retreat": {
+  "method": "fallback",
+  "resolved": "https://pathfounders.com/p/breaking-sequoia-shuts-london-office-in-shock-european-retreat",
+  "ts": 1793814145
+ },
  "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/": {
   "method": "fallback",
   "resolved": "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/",
@@ -469,6 +474,11 @@
   "resolved": "https://www.calcalistech.com/ctechnews/article/yxdvdp8sm",
   "ts": 1793586992
  },
+ "https://www.citationneeded.news/2026-election-results/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261104155233/https://www.citationneeded.news/2026-election-results/",
+  "ts": 1793814142
+ },
  "https://www.cityam.com/legora-raises-550-in-funding-to-lead-global-expansion/": {
   "method": "fallback",
   "resolved": "https://www.cityam.com/legora-raises-550-in-funding-to-lead-global-expansion/",
@@ -613,6 +623,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261104013205/https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
   "ts": 1793760006
+ },
+ "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html": {
+  "method": "fallback",
+  "resolved": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
+  "ts": 1793814144
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
@@ -784,6 +799,11 @@
   "resolved": "https://www.ookla.com/articles/london-mobile-2026",
   "ts": 1792501106
  },
+ "https://www.pangram.com/blog/introducing-pangram-image-1-0": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261104170523/https://www.pangram.com/blog/introducing-pangram-image-1-0",
+  "ts": 1793814141
+ },
  "https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261018054958/https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/",
@@ -938,6 +958,11 @@
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261020125124/https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
   "ts": 1792501103
+ },
+ "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation": {
+  "method": "fallback",
+  "resolved": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+  "ts": 1793814141
  },
  "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend": {
   "method": "fallback",
