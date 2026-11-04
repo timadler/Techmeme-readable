@@ -364,6 +364,11 @@
   "resolved": "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber",
   "ts": 1793760011
  },
+ "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor": {
+  "method": "fallback",
+  "resolved": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+  "ts": 1793833551
+ },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
   "resolved": "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics",
@@ -894,6 +899,11 @@
   "resolved": "https://web.archive.org/web/20261020071946/https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
   "ts": 1792481972
  },
+ "https://www.theglobeandmail.com/business/article-amd-to-pay-29-billion-for-ai-chip-firm-taalas/": {
+  "method": "fallback",
+  "resolved": "https://www.theglobeandmail.com/business/article-amd-to-pay-29-billion-for-ai-chip-firm-taalas/",
+  "ts": 1793833550
+ },
  "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better": {
   "method": "fallback",
   "resolved": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
@@ -960,9 +970,9 @@
   "ts": 1792501103
  },
  "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation": {
-  "method": "fallback",
-  "resolved": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
-  "ts": 1793814141
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261104210623/https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+  "ts": 1793833552
  },
  "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend": {
   "method": "fallback",
