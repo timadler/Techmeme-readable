@@ -129,6 +129,11 @@
   "resolved": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
   "ts": 1793016331
  },
+ "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261103185722/https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+  "ts": 1793785881
+ },
  "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261019094847/https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
@@ -724,6 +729,11 @@
   "resolved": "https://www.geekwire.com/2026/seattle-startup-avante-raises-30m-to-bring-ai-agents-to-corporate-benefits-teams/",
   "ts": 1793141367
  },
+ "https://www.generalist.com/p/a-portrait-of-eight-billion-people": {
+  "method": "fallback",
+  "resolved": "https://www.generalist.com/p/a-portrait-of-eight-billion-people",
+  "ts": 1793785888
+ },
  "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261026025322/https://www.ifixit.com/News/119895/iphone-duo-teardown",
@@ -903,6 +913,11 @@
   "method": "fallback",
   "resolved": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
   "ts": 1793174635
+ },
+ "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448": {
+  "method": "fallback",
+  "resolved": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
+  "ts": 1793785882
  },
  "https://www.thewrap.com/industry-news/business/apple-earnings-q4-2026/": {
   "method": "fallback",
