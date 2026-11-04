@@ -352,7 +352,7 @@
  "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber": {
   "method": "fallback",
   "resolved": "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber",
-  "ts": 1793744559
+  "ts": 1793760011
  },
  "https://www.axios.com/pro/fintech-deals/2026/10/19/prism-data-20-million-series-a-credit-analytics": {
   "method": "fallback",
@@ -595,14 +595,19 @@
   "ts": 1793671367
  },
  "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html": {
-  "method": "fallback",
-  "resolved": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-  "ts": 1793744558
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261104001454/https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+  "ts": 1793760011
  },
  "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html": {
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
   "ts": 1793744562
+ },
+ "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261104013205/https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
+  "ts": 1793760006
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
@@ -848,6 +853,11 @@
   "method": "fallback",
   "resolved": "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/",
   "ts": 1792372920
+ },
+ "https://www.theage.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html": {
+  "method": "fallback",
+  "resolved": "https://www.theage.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html",
+  "ts": 1793760007
  },
  "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics": {
   "method": "wayback",
