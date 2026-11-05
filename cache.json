@@ -299,6 +299,11 @@
   "resolved": "https://variety.com/2026/tv/news/roku-q3-2026-earnings-media-advertising-sales-growth-1236937827/",
   "ts": 1793671367
  },
+ "https://venturebeat.com/technology/ex-googlers-new-apache-2-0-model-ripple-65b-preview-claims-the-u-s-open-coding-lead-on-two-major-benchmarks": {
+  "method": "fallback",
+  "resolved": "https://venturebeat.com/technology/ex-googlers-new-apache-2-0-model-ripple-65b-preview-claims-the-u-s-open-coding-lead-on-two-major-benchmarks",
+  "ts": 1793878060
+ },
  "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited": {
   "method": "fallback",
   "resolved": "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited",
@@ -643,6 +648,11 @@
   "method": "fallback",
   "resolved": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html",
   "ts": 1793814144
+ },
+ "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261105041313/https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html",
+  "ts": 1793878061
  },
  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/": {
   "method": "fallback",
