@@ -49,6 +49,11 @@
   "resolved": "https://counterpointresearch.com/en/insights/global-pc-shipments-plunge-21-percent-in-q3-2026",
   "ts": 1792841605
  },
+ "https://cyberscoop.com/openai-gpt-6-cyber-security-model/": {
+  "method": "fallback",
+  "resolved": "https://cyberscoop.com/openai-gpt-6-cyber-security-model/",
+  "ts": 1793905010
+ },
  "https://cybersecuritynews.com/microsoft-authenticator-flaw/": {
   "method": "fallback",
   "resolved": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
@@ -123,6 +128,11 @@
   "method": "fallback",
   "resolved": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
   "ts": 1792683527
+ },
+ "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261105172057/https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/",
+  "ts": 1793905011
  },
  "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/": {
   "method": "fallback",
@@ -1048,6 +1058,11 @@
   "method": "fallback",
   "resolved": "https://www.zdnet.com/innovation/mistral-large-4-weights-release/",
   "ts": 1793298662
+ },
+ "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261105183033/https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
+  "ts": 1793905009
  },
  "https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai/": {
   "method": "wayback",
