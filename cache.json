@@ -269,6 +269,11 @@
   "resolved": "https://thenewthings.com/p/microsoft-ceo-on-rogue-ai-agents-super-laptops-and-clippy",
   "ts": 1792372923
  },
+ "https://thenextweb.com/news/pliant-80m-series-c-ai-agents-b2b-payments-seaya-speedinvest": {
+  "method": "fallback",
+  "resolved": "https://thenextweb.com/news/pliant-80m-series-c-ai-agents-b2b-payments-seaya-speedinvest",
+  "ts": 1793849511
+ },
  "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/": {
   "method": "wayback",
   "resolved": "https://web.archive.org/web/20261021181145/https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
@@ -303,6 +308,11 @@
   "method": "fallback",
   "resolved": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
   "ts": 1792967916
+ },
+ "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/": {
+  "method": "wayback",
+  "resolved": "https://web.archive.org/web/20261105015803/https://www.adweek.com/media/anthropic-licensing-deal-ap-election/",
+  "ts": 1793849512
  },
  "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident": {
   "method": "wayback",
@@ -783,6 +793,11 @@
   "method": "fallback",
   "resolved": "https://www.morningstar.com/news/marketwatch/20261029556/sandisk-sees-revenue-nearly-quintuple-and-a-stock-split-is-on-the-way",
   "ts": 1793350612
+ },
+ "https://www.morningstar.com/news/marketwatch/20261104599/this-years-worst-performing-sp-500-stock-is-finally-seeing-some-major-relief": {
+  "method": "fallback",
+  "resolved": "https://www.morningstar.com/news/marketwatch/20261104599/this-years-worst-performing-sp-500-stock-is-finally-seeing-some-major-relief",
+  "ts": 1793849511
  },
  "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343": {
   "method": "fallback",
