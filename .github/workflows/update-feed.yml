@@ -1,10 +1,11 @@
 name: Update feed
 
 on:
-  schedule:
-    # Every 20 minutes. GitHub delays scheduled workflows on this repo, so
-    # runs often land only every few hours; leave the expression unchanged.
-    - cron: "*/20 * * * *"
+  # Scheduled runs are paused. To re-enable, uncomment the schedule block below.
+  # schedule:
+  #   # Every 20 minutes. GitHub delays scheduled workflows on this repo, so
+  #   # runs often land only every few hours; leave the expression unchanged.
+  #   - cron: "*/20 * * * *"
   workflow_dispatch:
 
 permissions:
